@@ -1,15 +1,12 @@
+### 🚀 **Telegram Chat Explorer**
 
-🇬🇧 **ReadMe in English** 
-###🚀 **Telegram Chat Explorer**
+[**Русская версия**](#README_ru.md)📜  
+
+---
 
 Welcome to **Telegram Chat Explorer**! This is a powerful tool for analyzing Telegram chats exported in JSON format. Use it to obtain detailed statistics about users, messages, media files, and much more. Both personal and group chats are supported!
 
----
 
-**Русская версия** 📜  
-[Switch to Russian](#README_ru.md)
-
----
 
 ## ⚙️ **Features**
 
@@ -19,10 +16,9 @@ Welcome to **Telegram Chat Explorer**! This is a powerful tool for analyzing Tel
 - Analyze media files: support for voice messages, video messages, stickers, audio files, and GIFs.
 - Top popular words with the option to exclude prepositions and other words.
 - Average message length in characters and words.
-- Work with media messages: audio, video, stickers, animations, and photos.
 
 ## 🛠 **Installation**
-
+README
 To use this tool, you need to clone the repository.
 
 ```bash
