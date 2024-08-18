@@ -1,6 +1,6 @@
 ### 🚀 **Telegram Chat Explorer**
 
-[**Русская версия**]([#README_ru.md](https://github.com/cl7paBka/TelegramChatExplorer/blob/main/README_ru.md))📜  
+[**Русская версия**](https://github.com/cl7paBka/TelegramChatExplorer/blob/main/README_ru.md)📜  
 
 ---
 
