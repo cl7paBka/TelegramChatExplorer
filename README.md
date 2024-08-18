@@ -1,5 +1,6 @@
 
-### 🇬🇧 **ReadMe in English** 🚀 **Telegram Chat Explorer**
+🇬🇧 **ReadMe in English** 
+###🚀 **Telegram Chat Explorer**
 
 Welcome to **Telegram Chat Explorer**! This is a powerful tool for analyzing Telegram chats exported in JSON format. Use it to obtain detailed statistics about users, messages, media files, and much more. Both personal and group chats are supported!
 
