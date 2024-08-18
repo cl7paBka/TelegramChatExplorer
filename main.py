@@ -22,7 +22,7 @@ def main():
         analyzer.print_summary()
 
     except KeyboardInterrupt:
-        print("\nПрограмма завершена. Было нажато Ctrl+C")
+        print("\nПрограмма завершена было нажато сочетание клавиш [Ctrl+C].")
 
 
 if __name__ == "__main__":
