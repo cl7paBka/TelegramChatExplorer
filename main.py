@@ -1,29 +1,25 @@
 from utils import load_chat_data
 from analyzer import TelegramChatAnalyzer
-from cli import parse_arguments
-
+from config import config
 
 def main():
     """Главная функция программы, запускающая анализ данных."""
-    args = parse_arguments()  # Парсинг аргументов командной строки
+    config.load_from_args()
 
     try:
-        # Загрузка данных из JSON
-        chat_data = load_chat_data(args.file)
+        chat_data = load_chat_data(config.file)
 
-        # Создание экземпляра анализатора с переданными опциями
         analyzer = TelegramChatAnalyzer(
             chat_data=chat_data,
-            excluded_words=args.exclude,
-            top_n_words=args.top_words
+            excluded_words=config.exclude,
+            top_n_words=config.top,
+            language=config.language
         )
 
-        # Выводим собранную статистику
         analyzer.print_summary()
 
     except KeyboardInterrupt:
-        print("\nПрограмма завершена было нажато сочетание клавиш [Ctrl+C].")
-
+        print("\nПрограмма была прервана пользователем.")
 
 if __name__ == "__main__":
     main()
