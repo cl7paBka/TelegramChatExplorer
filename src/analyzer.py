@@ -1,7 +1,7 @@
 from collections import Counter
 from datetime import timedelta
-from message_processor import MessageProcessor
-from config import config
+from src.message_processor import MessageProcessor
+from src.config import config
 
 class TelegramChatAnalyzer:
     """Класс для анализа чатов Telegram."""

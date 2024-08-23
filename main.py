@@ -1,6 +1,6 @@
-from utils import load_chat_data
-from analyzer import TelegramChatAnalyzer
-from config import config
+from src.utils import load_chat_data
+from src.analyzer import TelegramChatAnalyzer
+from src.config import config
 
 def main():
     """Главная функция программы, запускающая анализ данных."""
