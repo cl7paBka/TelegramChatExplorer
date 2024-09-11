@@ -44,9 +44,10 @@ Whether you're curious about your group chats or personal conversations, this ap
 To run the application, use the command-line arguments provided through `argparse`. Below is an example:
 
 ```bash
-python telegram_chat_explorer.py -f <path_to_chat.json> -m -w
+python telegram_chat_explorer.py -f <path_to_chat.json> -u
 ```
 
+[help]: https://raw.githubusercontent.com/cl7paBka/TelegramChatExplorer/main/readme_assets/--help.png "Logo Title Text 2"
 ### Key arguments:
 - `-f, --file`: Path to the JSON file containing the chat data.
 - `-l, --language`: Select the language (default: en, available: ru).
