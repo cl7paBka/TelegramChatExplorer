@@ -208,7 +208,6 @@ class TelegramChatAnalyzer:
                 print(
                     f"  {user}: {stats['total_words']} слов" if self.language == 'ru' else f"  {user}: {stats['total_words']} words")
 
-    # вопрос насчёт total или participant
     def print_average_message_length_by_user(self):
         """Выводит среднее количество символов на сообщение для каждого участника."""
         if self.show_participant_messages_stats:
