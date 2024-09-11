@@ -47,7 +47,7 @@ To run the application, use the command-line arguments provided through `argpars
 python telegram_chat_explorer.py -f <path_to_chat.json> -u
 ```
 
-[help]: https://raw.githubusercontent.com/cl7paBka/TelegramChatExplorer/main/readme_assets/--help.png "Logo Title Text 2"
+![help](https://raw.githubusercontent.com/cl7paBka/TelegramChatExplorer/main/readme_assets/--help.png)
 ### Key arguments:
 - `-f, --file`: Path to the JSON file containing the chat data.
 - `-l, --language`: Select the language (default: en, available: ru).
@@ -91,7 +91,12 @@ TelegramChatExplorer/
 ├── src/                # Source folder containing core logic
 │   ├── analyzer.py     # Module responsible for data analysis and chat processing
 │   ├── config.py       # Handles configuration management and parameters
-│   ├── utils.py        # Utility functions for various helper tasks
+│   └── utils.py        # Utility functions for various helper tasks
+│
+├── readme_assets/      # Folder containing images for README.md
+│   └── --help.png 
+│   
+│
 │
 ├── tce.py              # Entry point script to run the Telegram Chat Explorer
 ├── requirements.txt    # Dependencies and required libraries for the project
