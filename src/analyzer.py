@@ -1,7 +1,6 @@
 from collections import Counter
 from datetime import timedelta
 import src.utils as utils
-from src.config import *
 
 
 class TelegramChatAnalyzer:
@@ -41,8 +40,6 @@ class TelegramChatAnalyzer:
         self.show_participant_messages_stats = show_participant_messages_stats
         self.show_participant_words_stats = show_participant_words_stats
         self.show_participant_media_stats = show_participant_media_stats
-
-
 
     def _process_chat_data(self):
         """Обрабатывает все сообщения и собирает статистику."""
