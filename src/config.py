@@ -4,7 +4,7 @@ import argparse
 
 class Config:
     def __init__(self):
-        self.input_file_path = 'input.txt'
+        self.input_file_path = ''
         self.use_default_config = True
 
         self.language = 'en'
