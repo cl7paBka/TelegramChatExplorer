@@ -1,3 +1,4 @@
+from colorama import Fore, Style, init
 import json
 import re
 
@@ -25,3 +26,30 @@ def filter_words(text, excluded_words):
     if not excluded_words:
         return words  # Если нет слов для исключения, возвращаем все слова
     return [word for word in words if word not in excluded_words]
+
+init(autoreset=True)
+
+def print_logo():
+
+    logo = f"""
+ {Fore.MAGENTA}/\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\ 
+( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )
+ > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ < 
+ /\_/\                                     /\_/\ 
+( o.o )                                   ( o.o )
+ {Fore.MAGENTA}> ^ <{Fore.MAGENTA}    {Fore.LIGHTWHITE_EX}/$$$$$$$$  /$$$$$$  /$$$$$$$${Fore.LIGHTWHITE_EX}    {Fore.MAGENTA}> ^ < {Fore.MAGENTA}
+ {Fore.MAGENTA}/\_/\{Fore.MAGENTA}   {Fore.LIGHTWHITE_EX}|__  $$__/ /$$__  $$| $$_____/{Fore.LIGHTWHITE_EX}    {Fore.MAGENTA}/\_/\ {Fore.MAGENTA}
+{Fore.MAGENTA}( o.o ){Fore.MAGENTA}     {Fore.LIGHTWHITE_EX}| $$   | $$  \__/| $${Fore.LIGHTWHITE_EX}         {Fore.MAGENTA}( o.o ){Fore.MAGENTA}
+ {Fore.MAGENTA}> ^ <{Fore.MAGENTA}      {Fore.LIGHTWHITE_EX}| $$   | $$      | $$$$${Fore.LIGHTWHITE_EX}       {Fore.MAGENTA}> ^ < {Fore.MAGENTA}
+ {Fore.MAGENTA}/\_/\{Fore.MAGENTA}      {Fore.LIGHTWHITE_EX}| $$   | $$      | $$__/{Fore.LIGHTWHITE_EX}       {Fore.MAGENTA}/\_/\ {Fore.MAGENTA}
+{Fore.MAGENTA}( o.o ){Fore.MAGENTA}     {Fore.LIGHTWHITE_EX}| $$   | $$    $$| $${Fore.LIGHTWHITE_EX}         {Fore.MAGENTA}( o.o ){Fore.MAGENTA}
+ {Fore.MAGENTA}> ^ <{Fore.MAGENTA}      {Fore.LIGHTWHITE_EX}| $$   |  $$$$$$/| $$$$$$$${Fore.LIGHTWHITE_EX}    {Fore.MAGENTA}> ^ < {Fore.MAGENTA}
+ {Fore.MAGENTA}/\_/\{Fore.MAGENTA}      {Fore.LIGHTWHITE_EX}|__/    \______/ |________/{Fore.LIGHTWHITE_EX}    {Fore.MAGENTA}/\_/\ {Fore.MAGENTA}
+{Fore.MAGENTA}( o.o )                                   ( o.o )
+ > ^ <                                     > ^ < 
+ /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\ 
+( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )
+ > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ < 
+"""
+    print(logo)
+    return ''
