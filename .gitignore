@@ -1,0 +1,9 @@
+# ignore venv
+.venv/
+
+# ignore pycharm IDE
+.idea/
+
+# ignore python cache
+__pycache__/
+src/__pycache__/
