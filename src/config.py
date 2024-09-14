@@ -1,5 +1,5 @@
-from src.utils import print_logo
 import argparse
+from src.utils import print_logo
 
 
 class Config:

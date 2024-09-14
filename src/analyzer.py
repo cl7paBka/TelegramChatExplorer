@@ -1,6 +1,7 @@
+import pandas as pd
+import src.utils as utils
 from collections import Counter
 from datetime import timedelta
-import src.utils as utils
 
 
 class TelegramChatAnalyzer:
@@ -337,6 +338,9 @@ class TelegramChatAnalyzer:
                     print(f"  {word.capitalize()}: {count} раз(а)")
                 else:
                     print(f"  {word.capitalize()}: {count} times")
+
+    # Saving for excel file
+
 
     def print_summary(self):
         """Выводит всю собранную статистику."""
